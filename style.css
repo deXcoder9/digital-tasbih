@@ -12,7 +12,10 @@
     width: 85%;
     /* height: 100vh; */
     max-width: 1200px;
-    margin: auto;
+    margin: 30px auto;
+}
+.contianer *{
+    margin-bottom: 20px;
 }
 
 .common-div-value {
