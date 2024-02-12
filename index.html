@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logo/favicon.jpg" type="image/x-icon">
+    <title>Tasbih -Time</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="contianer
+    flex justify-center text-center items-center 
+    ">
+        <div>
+            <h1 class="title">TASBIH</h1>
+            <div class="tasbih-vessel
+            flex md:space-x-20 flex-col md:flex-row
+            ">
+                <div class="common-div-value ">
+                    <h3 class="text-xl">Subhan Allah</h3>
+                    <h1 id="subhanAllahDisplay" class="text-3xl">0</h1>
+                    <div class="vessel_button md:space-x-4  space-y-3 md:space-y-0 flex flex-col md:flex-row justify-around">
+                        <button id="subhanAllahInBtn" class="increment_button">increment</button>
+                        <button id="subhanAllahDeBtn" class="decrement_button">decrement</button></div>
+                </div>
+                <div class="common-div-value">
+                    <h3 class="text-xl">Alhamdulillah</h3>
+                    <h1 id="AlhamdulillahDisplay" class="text-3xl">0</h1>
+                    <div class="vessel_button md:space-x-4  space-y-3 md:space-y-0 flex flex-col md:flex-row justify-around">
+                        <button id="AlhamdulillahInBtn" class="increment_button">increment</button>
+                        <button id="AlhamdulillahDeBtn" class="decrement_button">decrement</button></div>
+                </div>
+                <div class="common-div-value">
+                    <h3 class="text-xl">Allahuakber</h3>
+                    <h1 id="AllahuakberDisplay" class="text-3xl">0</h1>
+                    <div class="vessel_button md:space-x-4  space-y-3 md:space-y-0 flex flex-col md:flex-row justify-around">
+                        <button id="AllahuakberInBtn" class="increment_button">increment</button>
+                        <button id="AllahuakberDeBtn" class="decrement_button">decrement</button></div>
+                </div>
+            </div>
+            <button id="reset_button" class="reset_button">Reset</button>
+           
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

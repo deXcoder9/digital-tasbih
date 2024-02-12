@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.contianer {
+    width: 85%;
+    /* height: 100vh; */
+    max-width: 1200px;
+    margin: auto;
+}
+
+.common-div-value {
+    border: 1px solid rgb(183, 168, 168);
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 14px -3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 10px 10px 14px -3px rgba(0, 0, 0, 0.25);
+    box-shadow: 10px 10px 14px -3px rgba(0, 0, 0, 0.25);
+    background-color: #fff;
+    width: 100%;
+    min-width: 300px;
+}
+
+.common-div-value * {
+    padding-bottom: 10px;
+
+}
+
+.common-div-value h3 {
+    padding-top: 20px;
+}
+.decrement_button{
+    padding: 10px 15px;
+    border-radius: 12px;
+    color: #362f2f;
+    background-color:#ffe4c4;
+}
+.increment_button{
+    padding: 10px 15px;
+    background-color: #5f9ea0;
+     border-radius: 12px;
+     color: #362f2f;
+}
+.reset_button{
+    padding: 10px 20px;
+    /* border: 1px solid rgb(226, 103, 103);
+    background-color: rgb(225, 68, 68); */
+    color: white;
+    border-radius: 12px;
+    margin-top: 30px;
+    background: linear-gradient(45deg, #5f9ea0, #d4483e);
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.title{
+    background: linear-gradient(45deg, #0e1b29, #ff0080);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Protest Strike', sans-serif;
+    letter-spacing: 15px;
+    padding-bottom: 30px;
+}
